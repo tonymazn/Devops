@@ -34,10 +34,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="RabbitMQ.Client">
-      <HintPath>..\..\rabitmq-dotnet-client\bin\RabbitMQ.Client.dll</HintPath>
+      <HintPath>..\ThirdParty\rabitmq-dotnet-client\bin\RabbitMQ.Client.dll</HintPath>
     </Reference>
     <Reference Include="RabbitMQ.ServiceModel">
-      <HintPath>..\..\rabitmq-dotnet-client\bin\RabbitMQ.ServiceModel.dll</HintPath>
+      <HintPath>..\ThirdParty\rabitmq-dotnet-client\bin\RabbitMQ.ServiceModel.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -54,6 +54,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ThirdParty\RabbitMQ.Client.dll" />
+    <Content Include="ThirdParty\RabbitMQ.Client.xml" />
+    <Content Include="ThirdParty\RabbitMQ.ServiceModel.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
