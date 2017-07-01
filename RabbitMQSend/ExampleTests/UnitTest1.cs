@@ -3,6 +3,9 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace ExampleTests
 {
+    /// <summary>
+    /// Build Test
+    /// </summary>
     [TestClass]
     public class UnitTest1
     {
