@@ -36,7 +36,7 @@ namespace ExampleTests
         [TestMethod]
         public void TestMethod5()
         {
-            Assert.AreEqual(1 + 3, 5);
+            Assert.AreEqual(1 + 4, 5);
         }
     }
 }
