@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQSend", "RabbitMQSen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleTests", "ExampleTests\ExampleTests.csproj", "{02062FDD-501A-49F9-BCB4-F87713E8EA3D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Devops", "Devops", "{0EC24670-1260-4FCC-99B1-3194DB975CBC}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Devops\docker-compose.yml = ..\..\..\Devops\docker-compose.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
