@@ -15,7 +15,7 @@ namespace ExampleTests
         [TestMethod]
         public void TestMethod2()
         {
-            Assert.AreEqual(1 + 2, 4);
+            Assert.AreEqual(1 + 3, 4);
         }
     }
 }
