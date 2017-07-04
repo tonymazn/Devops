@@ -8,6 +8,7 @@ namespace RabbitMQSend
     {
         static void Main(string[] args)
         {
+            // Update the common
             var factory = new ConnectionFactory() { HostName = "dockergroup.cloudapp.net" };
             using (var connection = factory.CreateConnection())
             using (var channel = connection.CreateModel())
