@@ -38,5 +38,11 @@ namespace ExampleTests
         {
             Assert.AreEqual(1 + 4, 5);
         }
+
+        [TestMethod]
+        public void TestMethod6()
+        {
+            Assert.AreEqual(1 + 4, 6);
+        }
     }
 }
